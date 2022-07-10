@@ -1,0 +1,8 @@
+[
+	"gauge",
+	"run",
+	"--hide-suggestion",
+	"--simple-console",
+	"--dir=g:\\Passed\\testing3",
+	"g:\\Passed\\testing3\\specs\\example.spec"
+]

@@ -1,0 +1,9 @@
+{
+	"Args": [
+		"run",
+		"--hide-suggestion",
+		"--simple-console",
+		"--dir=g:\\Passed\\testing3"
+	],
+	"FailedItems": []
+}

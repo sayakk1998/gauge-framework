@@ -1,0 +1,254 @@
+src/test/java/Googlespec.java:1: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+src/test/java/Googlespec.java:2: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src/test/java/Googlespec.java:3: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebElement;
+                          ^
+src/test/java/Googlespec.java:4: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeDriver;
+                                 ^
+src/test/java/Googlespec.java:10: error: cannot find symbol
+        public static WebDriver driver;
+                      ^
+  symbol:   class WebDriver
+  location: class Googlespec
+src/test/java/StepImplementation.java:1: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+src/test/java/StepImplementation.java:2: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.JavascriptExecutor;
+                          ^
+src/test/java/StepImplementation.java:3: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src/test/java/StepImplementation.java:4: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebElement;
+                          ^
+src/test/java/StepImplementation.java:5: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeDriver;
+                                 ^
+src/test/java/StepImplementation.java:10: error: cannot find symbol
+        public static WebDriver driver;
+                      ^
+  symbol:   class WebDriver
+  location: class StepImplementation
+src/test/java/driver/Driver.java:5: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src/test/java/driver/Driver.java:10: error: cannot find symbol
+    public static WebDriver webDriver;
+                  ^
+  symbol:   class WebDriver
+  location: class Driver
+src/test/java/driver/DriverFactory.java:3: error: package io.github.bonigarcia.wdm does not exist
+import io.github.bonigarcia.wdm.WebDriverManager;
+                               ^
+src/test/java/driver/DriverFactory.java:4: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src/test/java/driver/DriverFactory.java:5: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeDriver;
+                                 ^
+src/test/java/driver/DriverFactory.java:6: error: package org.openqa.selenium.firefox does not exist
+import org.openqa.selenium.firefox.FirefoxDriver;
+                                  ^
+src/test/java/driver/DriverFactory.java:7: error: package org.openqa.selenium.ie does not exist
+import org.openqa.selenium.ie.InternetExplorerDriver;
+                             ^
+src/test/java/driver/DriverFactory.java:8: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeOptions;
+                                 ^
+src/test/java/driver/DriverFactory.java:15: error: cannot find symbol
+    public static WebDriver getDriver() {
+                  ^
+  symbol:   class WebDriver
+  location: class DriverFactory
+src/test/java/Googlespec.java:16: error: cannot find symbol
+        driver = new ChromeDriver();
+                     ^
+  symbol:   class ChromeDriver
+  location: class Googlespec
+src/test/java/Googlespec.java:24: error: cannot find symbol
+        WebElement searchBox = driver.findElement(By.name("q"));
+        ^
+  symbol:   class WebElement
+  location: class Googlespec
+src/test/java/Googlespec.java:24: error: cannot find symbol
+        WebElement searchBox = driver.findElement(By.name("q"));
+                                                  ^
+  symbol:   variable By
+  location: class Googlespec
+src/test/java/StepImplementation.java:16: error: cannot find symbol
+            driver = new ChromeDriver();
+                         ^
+  symbol:   class ChromeDriver
+  location: class StepImplementation
+src/test/java/StepImplementation.java:25: error: cannot find symbol
+            driver.findElement(By.id("email")).sendKeys("sayakk1998@gmail.com");
+                               ^
+  symbol:   variable By
+  location: class StepImplementation
+src/test/java/StepImplementation.java:26: error: cannot find symbol
+            driver.findElement(By.id("password")).sendKeys("Guns@kimbo4");
+                               ^
+  symbol:   variable By
+  location: class StepImplementation
+src/test/java/StepImplementation.java:32: error: cannot find symbol
+            driver.findElement(By.id("send-invite")).click();
+                               ^
+  symbol:   variable By
+  location: class StepImplementation
+src/test/java/StepImplementation.java:40: error: cannot find symbol
+            driver.findElement(By.className("user-auth-name")).click();
+                               ^
+  symbol:   variable By
+  location: class StepImplementation
+src/test/java/StepImplementation.java:42: error: cannot find symbol
+            driver.findElement(By.className("user-auth-name")).click();
+                               ^
+  symbol:   variable By
+  location: class StepImplementation
+src/test/java/StepImplementation.java:43: error: cannot find symbol
+            driver.findElement(By.linkText("Profile")).click();
+                               ^
+  symbol:   variable By
+  location: class StepImplementation
+src/test/java/StepImplementation.java:46: error: cannot find symbol
+            String actualword = driver.findElement(By.linkText("Account Details")).getText();
+                                                   ^
+  symbol:   variable By
+  location: class StepImplementation
+src/test/java/StepImplementation.java:56: error: cannot find symbol
+            driver.findElement(By.linkText("Personal Details")).click();
+                               ^
+  symbol:   variable By
+  location: class StepImplementation
+src/test/java/StepImplementation.java:59: error: cannot find symbol
+            String actualword = driver.findElement(By.linkText("Personal Details")).getText();
+                                                   ^
+  symbol:   variable By
+  location: class StepImplementation
+src/test/java/StepImplementation.java:69: error: cannot find symbol
+            driver.findElement(By.linkText("Education Details")).click();
+                               ^
+  symbol:   variable By
+  location: class StepImplementation
+src/test/java/StepImplementation.java:72: error: cannot find symbol
+            String actualword = driver.findElement(By.linkText("Education Details")).getText();
+                                                   ^
+  symbol:   variable By
+  location: class StepImplementation
+src/test/java/StepImplementation.java:82: error: cannot find symbol
+            driver.findElement(By.linkText("Other Details")).click();
+                               ^
+  symbol:   variable By
+  location: class StepImplementation
+src/test/java/StepImplementation.java:85: error: cannot find symbol
+            String actualword = driver.findElement(By.linkText("Other Details")).getText();
+                                                   ^
+  symbol:   variable By
+  location: class StepImplementation
+src/test/java/StepImplementation.java:95: error: cannot find symbol
+            driver.findElement(By.className("user-auth-name")).click();
+                               ^
+  symbol:   variable By
+  location: class StepImplementation
+src/test/java/StepImplementation.java:97: error: cannot find symbol
+            driver.findElement(By.className("user-auth-name")).click();
+                               ^
+  symbol:   variable By
+  location: class StepImplementation
+src/test/java/StepImplementation.java:98: error: cannot find symbol
+            driver.findElement(By.linkText("Training")).click();
+                               ^
+  symbol:   variable By
+  location: class StepImplementation
+src/test/java/StepImplementation.java:120: error: cannot find symbol
+            JavascriptExecutor jse = (JavascriptExecutor)driver;
+            ^
+  symbol:   class JavascriptExecutor
+  location: class StepImplementation
+src/test/java/StepImplementation.java:120: error: cannot find symbol
+            JavascriptExecutor jse = (JavascriptExecutor)driver;
+                                      ^
+  symbol:   class JavascriptExecutor
+  location: class StepImplementation
+src/test/java/StepImplementation.java:121: error: cannot find symbol
+            WebElement element = driver.findElement(By.xpath("//button[@class='btn btn-compact box-shadow module-completed']"));
+            ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src/test/java/StepImplementation.java:121: error: cannot find symbol
+            WebElement element = driver.findElement(By.xpath("//button[@class='btn btn-compact box-shadow module-completed']"));
+                                                    ^
+  symbol:   variable By
+  location: class StepImplementation
+src/test/java/StepImplementation.java:134: error: cannot find symbol
+                JavascriptExecutor jse = (JavascriptExecutor)driver;
+                ^
+  symbol:   class JavascriptExecutor
+  location: class StepImplementation
+src/test/java/StepImplementation.java:134: error: cannot find symbol
+                JavascriptExecutor jse = (JavascriptExecutor)driver;
+                                          ^
+  symbol:   class JavascriptExecutor
+  location: class StepImplementation
+src/test/java/StepImplementation.java:151: error: cannot find symbol
+            driver.findElement(By.className("user-auth-name")).click();
+                               ^
+  symbol:   variable By
+  location: class StepImplementation
+src/test/java/StepImplementation.java:153: error: cannot find symbol
+            driver.findElement(By.xpath("//button[@class='logout-link']")).click();
+                               ^
+  symbol:   variable By
+  location: class StepImplementation
+src/test/java/StepImplementation.java:154: error: cannot find symbol
+            driver.findElement(By.xpath("//button[@class='btn']")).click();
+                               ^
+  symbol:   variable By
+  location: class StepImplementation
+src/test/java/driver/DriverFactory.java:22: error: cannot find symbol
+                WebDriverManager.iedriver().setup();
+                ^
+  symbol:   variable WebDriverManager
+  location: class DriverFactory
+src/test/java/driver/DriverFactory.java:23: error: cannot find symbol
+                return new InternetExplorerDriver();
+                           ^
+  symbol:   class InternetExplorerDriver
+  location: class DriverFactory
+src/test/java/driver/DriverFactory.java:25: error: cannot find symbol
+                WebDriverManager.firefoxdriver().setup();
+                ^
+  symbol:   variable WebDriverManager
+  location: class DriverFactory
+src/test/java/driver/DriverFactory.java:26: error: cannot find symbol
+                return new FirefoxDriver();
+                           ^
+  symbol:   class FirefoxDriver
+  location: class DriverFactory
+src/test/java/driver/DriverFactory.java:29: error: cannot find symbol
+                WebDriverManager.chromedriver().setup();
+                ^
+  symbol:   variable WebDriverManager
+  location: class DriverFactory
+src/test/java/driver/DriverFactory.java:31: error: cannot find symbol
+	            ChromeOptions options = new ChromeOptions();
+	            ^
+  symbol:   class ChromeOptions
+  location: class DriverFactory
+src/test/java/driver/DriverFactory.java:31: error: cannot find symbol
+	            ChromeOptions options = new ChromeOptions();
+	                                        ^
+  symbol:   class ChromeOptions
+  location: class DriverFactory
+src/test/java/driver/DriverFactory.java:37: error: cannot find symbol
+	            return new ChromeDriver(options);
+	                       ^
+  symbol:   class ChromeDriver
+  location: class DriverFactory
+57 errors

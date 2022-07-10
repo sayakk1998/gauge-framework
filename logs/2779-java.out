@@ -1,0 +1,61 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 2163milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 2163"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 44099"}
+{"logLevel":"info","message":"Listening on port:44099"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.Gotomodule2' and 'StepImplementation.Gotomodule2'"}
+{"logLevel":"debug","message":"Found Go to module2 in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.Gotomodule1' and 'StepImplementation.Gotomodule1'"}
+{"logLevel":"debug","message":"Found Go to module1 in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.NavigatetoXenonstackpage' and 'StepImplementation.NavigatetoXenonstackpage'"}
+{"logLevel":"debug","message":"Found Navigate to Xenonstack page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.Gotomodule4' and 'StepImplementation.Gotomodule4'"}
+{"logLevel":"debug","message":"Found Go to module4 in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.Gotomodule3' and 'StepImplementation.Gotomodule3'"}
+{"logLevel":"debug","message":"Found Go to module3 in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.goToGoogle' and 'StepImplementation.goToGoogle'"}
+{"logLevel":"debug","message":"Found Go to google in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.Clickonlogin' and 'StepImplementation.Clickonlogin'"}
+{"logLevel":"debug","message":"Found Click on login in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.CheckotherDetails' and 'StepImplementation.CheckotherDetails'"}
+{"logLevel":"debug","message":"Found Check otherDetails in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.CheckpersonalDetails' and 'StepImplementation.CheckpersonalDetails'"}
+{"logLevel":"debug","message":"Found Check personalDetails in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.CheckaccountDetails' and 'StepImplementation.CheckaccountDetails'"}
+{"logLevel":"debug","message":"Found Check accountDetails in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.searchFor' and 'StepImplementation.searchFor'"}
+{"logLevel":"debug","message":"Found Search For {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.CheckeducationDetails' and 'StepImplementation.CheckeducationDetails'"}
+{"logLevel":"debug","message":"Found Check educationDetails in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.Gototrainingpage' and 'StepImplementation.Gototrainingpage'"}
+{"logLevel":"debug","message":"Found Go to training page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.Entervalidusernameandvalidpassword' and 'StepImplementation.Entervalidusernameandvalidpassword'"}
+{"logLevel":"debug","message":"Found Enter valid username and valid password in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.Loggingout' and 'StepImplementation.Loggingout'"}
+{"logLevel":"debug","message":"Found Logging out in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.Searchforxenonstack' and 'StepImplementation.Searchforxenonstack'"}
+{"logLevel":"debug","message":"Found Search for xenonstack in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tNavigate to Xenonstack page : public void NavigatetoXenonstackpage() throws InterruptedException"}
+{"logLevel":"debug","message":"\tCheck otherDetails : public void CheckotherDetails() throws InterruptedException"}
+{"logLevel":"debug","message":"\tCheck personalDetails : public void CheckpersonalDetails() throws InterruptedException"}
+{"logLevel":"debug","message":"\tGo to module3 : public void Gotomodule3() throws InterruptedException"}
+{"logLevel":"debug","message":"\tGo to module4 : public void Gotomodule4() throws InterruptedException"}
+{"logLevel":"debug","message":"\tGo to module1 : public void Gotomodule1() throws InterruptedException"}
+{"logLevel":"debug","message":"\tGo to module2 : public void Gotomodule2() throws InterruptedException"}
+{"logLevel":"debug","message":"\tSearch for xenonstack : public void Searchforxenonstack() throws InterruptedException"}
+{"logLevel":"debug","message":"\tLogging out : public void Loggingout() throws InterruptedException"}
+{"logLevel":"debug","message":"\tClick on login : public void Clickonlogin() throws InterruptedException"}
+{"logLevel":"debug","message":"\tEnter valid username and valid password : public void Entervalidusernameandvalidpassword() throws InterruptedException"}
+{"logLevel":"debug","message":"\tCheck accountDetails : public void CheckaccountDetails() throws InterruptedException"}
+{"logLevel":"debug","message":"\tGo to training page : public void Gototrainingpage() throws InterruptedException"}
+{"logLevel":"debug","message":"\tSearch For {} : public void searchFor() throws InterruptedException"}
+{"logLevel":"debug","message":"\tGo to google : public void goToGoogle() throws InterruptedException"}
+{"logLevel":"debug","message":"\tCheck educationDetails : public void CheckeducationDetails() throws InterruptedException"}

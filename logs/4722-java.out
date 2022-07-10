@@ -1,0 +1,66 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 1775milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1775"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 44271"}
+{"logLevel":"info","message":"Listening on port:44271"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.NavigatetoXenonstackpage' and 'StepImplementation.NavigatetoXenonstackpage'"}
+{"logLevel":"debug","message":"Found Navigate to Xenonstack page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.CheckeducationDetails' and 'StepImplementation.CheckeducationDetails'"}
+{"logLevel":"debug","message":"Found Check educationDetails in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.Gototrainingpage' and 'StepImplementation.Gototrainingpage'"}
+{"logLevel":"debug","message":"Found Go to training page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.Entervalidusernameandvalidpassword' and 'StepImplementation.Entervalidusernameandvalidpassword'"}
+{"logLevel":"debug","message":"Found Enter valid username and valid password in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.Clickonlogin' and 'StepImplementation.Clickonlogin'"}
+{"logLevel":"debug","message":"Found Click on login in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.CheckotherDetails' and 'StepImplementation.CheckotherDetails'"}
+{"logLevel":"debug","message":"Found Check otherDetails in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.CheckpersonalDetails' and 'StepImplementation.CheckpersonalDetails'"}
+{"logLevel":"debug","message":"Found Check personalDetails in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.CheckaccountDetails' and 'StepImplementation.CheckaccountDetails'"}
+{"logLevel":"debug","message":"Found Check accountDetails in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tClick on login : public void Clickonlogin() throws InterruptedException"}
+{"logLevel":"debug","message":"\tNavigate to Xenonstack page : public void NavigatetoXenonstackpage() throws InterruptedException"}
+{"logLevel":"debug","message":"\tEnter valid username and valid password : public void Entervalidusernameandvalidpassword() throws InterruptedException"}
+{"logLevel":"debug","message":"\tCheck accountDetails : public void CheckaccountDetails() throws InterruptedException"}
+{"logLevel":"debug","message":"\tGo to training page : public void Gototrainingpage() throws InterruptedException"}
+{"logLevel":"debug","message":"\tCheck otherDetails : public void CheckotherDetails() throws InterruptedException"}
+{"logLevel":"debug","message":"\tCheck personalDetails : public void CheckpersonalDetails() throws InterruptedException"}
+{"logLevel":"debug","message":"\tCheck educationDetails : public void CheckeducationDetails() throws InterruptedException"}
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 14420
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 23, 2022 2:47:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Navigate to Xenonstack page' using 'class StepImplementation.NavigatetoXenonstackpage"}
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 14975
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 23, 2022 2:47:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Enter valid username and valid password' using 'class StepImplementation.Entervalidusernameandvalidpassword"}
+{"logLevel":"debug","message":"Executing 'Click on login' using 'class StepImplementation.Clickonlogin"}
+{"logLevel":"debug","message":"Executing 'Check accountDetails' using 'class StepImplementation.CheckaccountDetails"}
+OK-- Account Details
+{"logLevel":"debug","message":"Executing 'Check personalDetails' using 'class StepImplementation.CheckpersonalDetails"}
+OK-- Personal Details
+{"logLevel":"debug","message":"Executing 'Check educationDetails' using 'class StepImplementation.CheckeducationDetails"}
+OK-- Education Details
+{"logLevel":"debug","message":"Executing 'Check otherDetails' using 'class StepImplementation.CheckotherDetails"}
+OK-- Other Details
+{"logLevel":"debug","message":"Executing 'Go to training page' using 'class StepImplementation.Gototrainingpage"}
+{"logLevel":"error","message":"Failed to take regular screenshot: Can't load library: /usr/lib/jvm/java-11-openjdk-amd64/lib/libawt_xawt.so"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

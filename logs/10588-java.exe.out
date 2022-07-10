@@ -1,0 +1,28 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 7768milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 7768"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 64712"}
+{"logLevel":"info","message":"Listening on port:64712"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tNavigate to Xenonstack page : public void NavigatetoXenonstackpage() throws InterruptedException"}
+{"logLevel":"debug","message":"\tValidate educationDetails : public void ValidateeducationDetails() throws InterruptedException"}
+{"logLevel":"debug","message":"\tGo to module3 : public void Gotomodule3() throws InterruptedException"}
+{"logLevel":"debug","message":"\tValidate personalDetails : public void ValidatepersonalDetails() throws InterruptedException"}
+{"logLevel":"debug","message":"\tGo to module4 : public void Gotomodule4() throws InterruptedException"}
+{"logLevel":"debug","message":"\tGo to module1 : public void Gotomodule1() throws InterruptedException"}
+{"logLevel":"debug","message":"\tGo to module2 : public void Gotomodule2() throws InterruptedException"}
+{"logLevel":"debug","message":"\tLogging out : public void Loggingout() throws InterruptedException"}
+{"logLevel":"debug","message":"\tClick on login : public void Clickonlogin() throws InterruptedException"}
+{"logLevel":"debug","message":"\tValidate otherDetails : public void ValidateotherDetails() throws InterruptedException"}
+{"logLevel":"debug","message":"\tEnter valid username and valid password : public void Entervalidusernameandvalidpassword() throws InterruptedException"}
+{"logLevel":"debug","message":"\tValidate accountDetails : public void ValidateaccountDetails() throws InterruptedException"}
+{"logLevel":"debug","message":"\tGo to training page : public void Gototrainingpage() throws InterruptedException"}
+{"logLevel":"debug","message":"\tSearch For {} : public void searchFor(String query) throws InterruptedException"}
+{"logLevel":"debug","message":"\tGo to google : public void goToGoogle() throws InterruptedException"}
